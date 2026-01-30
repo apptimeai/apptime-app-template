@@ -39,7 +39,7 @@ bun run preview
 
 ## 📚 Resources
 
-- **[Apptime Documentation](https://apptime.ai/docs)** – Learn how to extend this starter.
+- **[Apptime Documentation](https://apptime.ai/help)** – Learn how to extend this starter.
 - **[Nuxt Documentation](https://nuxt.com/docs)** – Explore the Nuxt framework.
 - **[Tailwind CSS Docs](https://tailwindcss.com/docs)** – Master the utility-first CSS framework.
 

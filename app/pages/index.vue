@@ -3,14 +3,14 @@
     <main class="relative w-full max-w-2xl glass-effect p-8 md:p-12 overflow-hidden shadow-2xl rounded-box">
       <!-- Background Accents -->
       <div class="absolute inset-0 pointer-events-none opacity-20">
-        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary blur-[100px] rounded-full"></div>
-        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-secondary blur-[100px] rounded-full"></div>
+        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary blur-[100px] rounded-box"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-secondary blur-[100px] rounded-box"></div>
       </div>
 
       <div class="relative z-10">
         <header class="flex flex-col md:flex-row items-start gap-6 mb-8">
           <!-- Logo -->
-          <div class="p-4 flex items-center justify-center glass-effect bg-gradient-to-br from-primary/10 to-secondary/10 rounded-btn">
+          <div class="p-4 flex items-center justify-center glass-effect bg-gradient-to-br from-primary/10 to-secondary/10 rounded-field">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="w-16 h-16"
@@ -31,7 +31,7 @@
 
           <div class="flex-1">
             <div class="badge badge-outline gap-2 py-3 px-4 mb-3 border-base-content/20 text-base-content/70">
-              <span class="w-2 h-2 rounded-full bg-primary shadow-[0_0_12px_var(--color-primary)]"></span>
+              <span class="w-2 h-2 rounded-box bg-primary shadow-[0_0_12px_var(--color-primary)]"></span>
               Starter Project
             </div>
             <h1 class="text-3xl md:text-4xl font-bold text-base-content leading-tight mb-2">
@@ -47,7 +47,7 @@
           <a
             href="https://apptime.ai"
             target="_blank"
-            class="btn btn-primary btn-lg rounded-none px-8 font-bold text-lg hover:-translate-y-0.5 transition-transform brand-gradient border-none text-primary-content shadow-[0_12px_35px_rgba(255,0,174,0.35)]"
+            class="btn btn-primary btn-lg rounded-field px-8 font-bold text-lg hover:-translate-y-0.5 transition-transform brand-gradient border-none text-primary-content shadow-[0_12px_35px_rgba(255,0,174,0.35)]"
           >
             Get Started
             <span class="text-xl">→</span>
@@ -58,7 +58,7 @@
           <p class="text-sm text-base-content/60">
             Need help? Visit our
             <a
-              href="https://apptime.ai/docs"
+              href="https://apptime.ai/help"
               target="_blank"
               class="link link-hover text-base-content/80 font-semibold"
             >
